@@ -1,12 +1,32 @@
-$micolor: blue;
+.nav {
+  color: white;
+  font-size: 19px;
+  font-weight: bold;
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+  font-family: "Quicksand", Arial, Serif;
+  text-align: center;
+}
 
-ul {
-  font-size: 14px;
-  color: $micolor;
+a:link {
+  color: white;
+  text-decoration: none;
 }
 
 
-ol {
-  font-size: 14px;
-  color: $micolor;
+h1 {
+  position: relative;
+  left: 40%;
+  transform: translatex(-50%);
+  text-align: center;
+  margin-top: 200px
+}
+
+body {
+  background: url("../fotos/bg-3-4f.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }

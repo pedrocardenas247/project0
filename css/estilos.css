@@ -1,0 +1,57 @@
+.nav {
+  font-size: 19px;
+  font-weight: bold;
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+  font-family: "Quicksand", Arial, Serif;
+  text-align: center;
+}
+
+
+h1, h3 {
+	text-align: center;
+	color: white;
+}
+
+.fondo1 {
+  background: url("../fotos/bg-3-4f.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.menu2 a{
+	color: black;
+}
+
+.menu1 a{
+	color: white;
+}
+
+.container.seccion1 {
+	margin-top: 400px;
+}
+
+
+
+.borde1 {
+	background-color: #49c5b6;	
+}
+
+.borde2 {
+	background-color: #87c70f;	
+}
+
+.borde3 {
+	background-color: #ff84a3;
+}
+
+.borde1, .borde2, .borde3 {
+	padding: 10px;
+	font-size: 20px;
+}
+
+/*# sourceMappingURL=estilos.css.map */.container.seccion2 {
+}
