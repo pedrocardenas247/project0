@@ -4,44 +4,60 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie-edge">
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="css/estilos.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
 <title>Pedro Cadenas, Diseño Web</title>
   </head>
   <body>
-<div class="container">
-	<div class="row">
-  <ul class="nav menu2">
-  <li class="nav-item ">
-    <a class="nav-link" href="#">Inicio</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Que Hacemos</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Trabajos</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Contacto</a>
-  </li>
-</ul>
+<div class="topnav" id="myTopnav">
+  <a href="index.html" >Inicio</a>
+  <a href="hacemos.html" class="active">Que Hacemos</a>
+  <a href="trabajos.html">Trabajos</a>
+  <a href="contacto.html">Contacto</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
 
-</div></div>
+<div class="container seccion2">
+  <div class="titulo1"><h1>Que Hacemos</h1></div>
+  <div class="row">
+    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 borde1">Tiendas Virtuales Venda sus productos en todo el Perú, reciba pagos por internet, mantenga actualizado su stock; lleve su negocio al siguiente nivel. Consulte por las facilidades de pago.
+	<div class="columna"><ol class="list-styled">
+    <li>Tiendas de Ropa</li>
+    <li>Bodega de Abarotes</li>
+    <li>Restauantes</li>
+    <li>Farmacias</li>
+</ol></div></div>
 
-<div class="container>
-	<div class="row"><h1>Que Hacemos</h1></div>
-<div class="row">
-	<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 borde1">Tiendas Virtuales Venda sus productos en todo el Perú, reciba pagos por internet, mantenga actualizado su stock; lleve su negocio al siguiente nivel. Consulte por las facilidades de pago. icon-image</div>
-	
-	<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 borde2">Aulas Virtuales Integre en un lugar: calificaciones, tareas, videos, contacto con los padres, videoconferencias y mas, todo con su imagen institucional.</div>
-	
-	<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 borde3">Paginas Web Podra organizar eventos, atender pacientes, conocer amigos de forma segura, etc; todos los negocios pueden estar en internet. Lo asesoramos en hosting y dominio.</div>
+
+  <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 borde2">Aulas Virtuales Integre en un lugar: calificaciones, tareas, videos, contacto con los padres, videoconferencias y mas, todo con su imagen institucional.
+	  <div class="columna"><ol class="list-styled">
+    <li>Escuelas</li>
+    <li>Academias</li>
+    <li>Institutos</li>
+    <li>Universidades</li>
+</ol></div></div>
+
+	<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 borde3">Paginas Web Podra organizar eventos, atender pacientes, conocer amigos de forma segura, etc; todos los negocios pueden estar en internet. Lo asesoramos en hosting y dominio.
+	  </div>
 </div></div>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	  
+	  <script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 </body>
 
 
